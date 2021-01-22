@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="ParameterDemo2.java">
+        <parameter name="Browser" value="Safari"></parameter>
+        <parameter name="IPAddress" value="123.56.99"></parameter>
+        <parameter name="Operating System" value="Mac"></parameter>
+        <classes>
+            <class name="TestNGDemo.ParameterDemo2"></class>
+        </classes>
+    </test>
+</suite>

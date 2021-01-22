@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter Demo">
+    <test name="First Browser">
+        <parameter name="Browser" value="Safari"></parameter>
+        <classes>
+            <class name = "TestNGDemo.ParameterDemo"/>
+        </classes>
+    </test>
+    <test name="Second Browser">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name = "TestNGDemo.ParameterDemo"/>
+        </classes>
+    </test>
+    <test name="Third Browser">
+        <parameter name="Browser" value="IE"></parameter>
+        <classes>
+            <class name = "TestNGDemo.ParameterDemo"/>
+        </classes>
+    </test>
+</suite>
